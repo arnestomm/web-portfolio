@@ -1,0 +1,94 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  padding: 50px;
+}
+
+#landing {
+  background-color: #f9f9f9;
+}
+
+#projects {
+  background-color: #e9e9e9;
+}
+
+#contact {
+  background-color: #d9d9d9;
+}
+
+#tools {
+  background-color: #c9c9c9;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  /* Styles for mobile devices */
+  section {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for tablet devices */
+  section {
+    padding: 30px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#contact-session {
+  border-radius: 10px;
+}
+
+#landing .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#landing .image-container {
+  flex: 1;
+  text-align: center;
+}
+
+#landing .image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+#landing .text-container {
+  flex: 1;
+  text-align: center;
+
+}
+
+img {
+  margin-top: 30px;
+}
+
+#tools .container {
+  margin-top: 30px;
+  
+}
